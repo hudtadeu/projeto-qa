@@ -4,6 +4,7 @@ require 'capybara/rspec'
 require 'site_prism'
 require 'rspec'
 require 'rspec/expectations'
+include RSpec::Matchers
 
 Capybara.configure do |config|
   config.default_driver = :selenium_chrome
